@@ -123,7 +123,7 @@ Answer: finbite_test_homework/Task7/query.sql
 
 Bonus: Have docker-compose file with simple table and sample scripts to simulate error.
 
-Answer: finbite_test_homework/Task7/Bonus/docker-compose.yml
+Answer: finbite_test_homework/Task7/Bonus/docker-compose.yml Simulate script is not done yet.
 
 
 
