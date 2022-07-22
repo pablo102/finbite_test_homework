@@ -102,7 +102,7 @@ done
 Your task is to write a script, that moves those files to another directory or another medium and encrypts them. The script must be able to run from crontab or similar task scheduler every minute. The process should be as parallel and time efficent as possible taking advantage of modern SMP hardware.
     
     Anwer: I wrote script that checks the file size, and if size more than 250MB, script copy all data from this file and delete data inside source file. I used provided task script to generate continuously a 500MB file. A output file encrypts with password and compress. The copy process always starts in parallel.
-[a task 5 script](/Task5/Task5.sh)
+[Task 5 script](/Task5/Task5.sh)
 
 -------------------------
 
