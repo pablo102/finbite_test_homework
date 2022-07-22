@@ -27,7 +27,7 @@ Prerequisites:
       - GIT
 
 -------------------------
-Task 1)
+Task 1:
 Using grep or similar utility available in your OS, find lines from random text file which have two or more "-" symbols on one line.
 
 Answer: awk '/-|--/{print $0}' filename or cat filename | grep -e "-" -e "--"
@@ -73,7 +73,7 @@ Your task is to write a program that finds top 5 countries where the sessions lo
 
 -------------------------
 
-Task 5)
+Task 5:
 A server is running a program that continuously outputs data to its output directory. If output file grows bigger than N megabytes, it closes the file and starts filling next one.
 You can use following shell script as a testcase. You can also write your own testcase.
 
