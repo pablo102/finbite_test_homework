@@ -61,7 +61,7 @@ Answer:
 Bonus: Create script in your favorite language to simulate the "poorly written web service".
     
     Answer: A docker-compose with with Flask. 
-[Task 3 bonus script](Test3/bonus/docker-compose.yml)
+[Task 3 bonus script](/Task3/bonus/docker-compose.yml)
 
 -------------------------
 
