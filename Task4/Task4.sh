@@ -11,7 +11,7 @@ END {
   print user, ip[user], login[user], logout[user]
 }' log_fragment  | while IFS=$'\t' read username remoteip starttime endtime; do
 duration=$(dateutils.ddiff -i "%Y.%m.%d %H:%M:%S" -f "%S" "$starttime" "$endtime")
-if [ $duration -ge 12 ]
+if [ $duration -ge 5 ]
 then
 ip=$(echo cat $remoteip | sed '/\n/!s/[0-9.]\+/\n&\n/;/^\([0-9]\{1,3\}\.\)\{3\}[0-9]\{1,3\}\n/P;D')
 country=$(whois $ip | grep -iE ^country: | awk '{print $2}')

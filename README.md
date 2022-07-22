@@ -122,11 +122,11 @@ Task 7:
 You have an issue in Oracle 11g database. One specific server creates queries that locks table for INSERT queries. 
 Create PL/SQL script that kills those each query from thatserver if one specific query is taking longer than 5 seconds.
 
-Answer: [Task 7 script](/Task7/query.sql)
+    Answer: [Task 7 script](/Task7/query.sql)
 
 Bonus: Have docker-compose file with simple table and sample scripts to simulate error.
 
-Answer: [Task 7 bonus script](/Task7/Bonus/docker-compose.yml) Simulate script is not done yet.
+    Answer: [Task 7 bonus script](/Task7/Bonus/docker-compose.yml) Simulate script is not done yet.
 
 
 
