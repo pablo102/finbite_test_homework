@@ -34,7 +34,7 @@ Answer: awk '/-|--/{print $0}' filename or cat filename | grep -e "-" -e "--"
 
 Bonus: create script that creates such random text file.
 
-Answer: [a relative link](/finbite_test_homework/Task1/Task1.sh)
+Answer: [a relative link](/Task1/Task1.sh)
 
 -------------------------
 Task 2:
