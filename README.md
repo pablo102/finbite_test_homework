@@ -53,9 +53,9 @@ Please write a restarter script which
 3) can be executed periodically by OS task scheduler (like cron)
 
     Answer:
-1) [Task 3 script](/Task3/Task3.sh)
-2) [Task 3 script](/Task3/Task3.sh)
-3) Can be executed from crontab -e
+1 - [Task 3 script](/Task3/Task3.sh)
+2 - [Task 3 script](/Task3/Task3.sh)
+3 - Can be executed from crontab -e
 
 Bonus: Create script in your favorite language to simulate the "poorly written web service".
     
