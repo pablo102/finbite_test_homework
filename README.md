@@ -50,6 +50,7 @@ Please write a restarter script which
 
 Bonus Create script in your favorite language to simulate the "poorly written web service".
     Answer: A docker-compose with with Flask. finbite_test_homework/Task3/bonus/
+
 -------------------------
 
 Task 4)
@@ -58,6 +59,7 @@ Your task is to write a program that finds top 5 countries where the sessions lo
     Answer - When customer open session, Linux assigning session ID that will be used when session done.
     I wrote the script that makes top 5 coutries with session longer than 5 seconds.
     finbite_test_homework/Task4/Task4.sh
+
 -------------------------
 
 Task 5)
@@ -86,6 +88,7 @@ done
 Your task is to write a script, that moves those files to another directory or another medium and encrypts them. The script must be able to run from crontab or similar task scheduler every minute. The process should be as parallel and time efficent as possible taking advantage of modern SMP hardware.
     Anwer: I wrote script that checks the file size, and if size more than 250MB, script copy all data from this file and delete data inside source file. I used provided task script to generate continuously a 500MB file. A output file encrypts with password and compress. The copy process always starts in parallel.
     finbite_test_homework/Task5/Task5.sh
+
 -------------------------
 
 Task 6)
@@ -95,6 +98,7 @@ Create docker-compose file that consists of nginx frontend for load balancer for
 
 Bonus setup service in heroku with Let's Encrypt certificate
     Answer: After generating new project in heroku.com need to fetch this project from github to working envirorment and generate and configure SSL cerrtificate with CERTBOT. Also SSL can be installed on Load Balancer.
+
 -------------------------
 
 Task 7
