@@ -34,7 +34,7 @@ Answer: awk '/-|--/{print $0}' filename or cat filename | grep -e "-" -e "--"
 
 Bonus: create script that creates such random text file.
 
-Answer: [a task 1 script](/Task1/Task1.sh)
+Answer: [Task 1 script](/Task1/Task1.sh)
 
 -------------------------
 Task 2:
@@ -53,13 +53,14 @@ Please write a restarter script which
 3) can be executed periodically by OS task scheduler (like cron)
 
     Answer:
-    1) /Task3/Task3.sh)
-    2) /Task3/Task3.sh)
-    3) Can be executed from crontab -e
+1) [Task 3 script](/Task3/Task3.sh)
+2) [Task 3 script](/Task3/Task3.sh)
+3) Can be executed from crontab -e
 
 Bonus: Create script in your favorite language to simulate the "poorly written web service".
     
-    Answer: A docker-compose with with Flask. [a task 3 bonus script](Test3/bonus/docker-compose.yml)
+    Answer: A docker-compose with with Flask. 
+[Task 3 bonus script](Test3/bonus/docker-compose.yml)
 
 -------------------------
 
@@ -69,7 +70,8 @@ Your task is to write a program that finds top 5 countries where the sessions lo
 
     Answer: - When customer open session, Linux assigning session ID that will be used when session done.
     I wrote the script that makes top 5 coutries with session longer than 5 seconds.
-    [a task 4 script](/Task4/Task4.sh)
+
+[Task 4 script](/Task4/Task4.sh)
 
 -------------------------
 
@@ -99,7 +101,7 @@ done
 Your task is to write a script, that moves those files to another directory or another medium and encrypts them. The script must be able to run from crontab or similar task scheduler every minute. The process should be as parallel and time efficent as possible taking advantage of modern SMP hardware.
     
     Anwer: I wrote script that checks the file size, and if size more than 250MB, script copy all data from this file and delete data inside source file. I used provided task script to generate continuously a 500MB file. A output file encrypts with password and compress. The copy process always starts in parallel.
-    [a task 5 script](/Task5/Task5.sh)
+[a task 5 script](/Task5/Task5.sh)
 
 -------------------------
 
@@ -107,7 +109,7 @@ Task 6:
 Create docker-compose file that consists of nginx frontend for load balancer for two instances of backend python service with Flask (simple Flask hello from / path is sufficient)
     
     Answer: A docker-compose configuration that proxying 80 port to two backend python instances. (Used Round Robin load balancer scheme)
-    [a task 6 script](/Task6/docker/docker-compose.yml)
+[Task 6 script](/Task6/docker/docker-compose.yml)
 
 Bonus: setup service in heroku with Let's Encrypt certificate
     
@@ -119,11 +121,11 @@ Task 7:
 You have an issue in Oracle 11g database. One specific server creates queries that locks table for INSERT queries. 
 Create PL/SQL script that kills those each query from thatserver if one specific query is taking longer than 5 seconds.
 
-Answer: [a task 7 script](/Task7/query.sql)
+Answer: [Task 7 script](/Task7/query.sql)
 
 Bonus: Have docker-compose file with simple table and sample scripts to simulate error.
 
-Answer: [a task 7 bonus script](/Task7/Bonus/docker-compose.yml) Simulate script is not done yet.
+Answer: [Task 7 bonus script](/Task7/Bonus/docker-compose.yml) Simulate script is not done yet.
 
 
 
