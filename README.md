@@ -52,10 +52,11 @@ Please write a restarter script which
 2) restarts web server when it has >N incoming tcp sessions open
 3) can be executed periodically by OS task scheduler (like cron)
 
-    Answer:
-1 - [Task 3 script](/Task3/Task3.sh)
-2 - [Task 3 script](/Task3/Task3.sh)
-3 - Can be executed from crontab -e
+Answer:
+
+1) [Task 3 script](/Task3/Task3.sh)
+2) [Task 3 script](/Task3/Task3.sh)
+3) Can be executed from crontab -e
 
 Bonus: Create script in your favorite language to simulate the "poorly written web service".
     
