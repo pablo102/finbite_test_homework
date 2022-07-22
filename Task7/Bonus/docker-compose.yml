@@ -2,7 +2,7 @@
 version: '3'
 services:
     postgres:
-        image: postgres:10.5
+        image: postgres:latest
         restart: always
         environment:
           - POSTGRES_USER=postgres
@@ -14,4 +14,4 @@ services:
         ports:
           - '5438:5438'
         volumes: 
-          - sql:/sql/newtable.sql
+          - ./sql/newtable.sql:/docker-entrypoint-initdb.d/newtable.sql
