@@ -19,6 +19,7 @@ Prerequisites:
       - Visual Studio Code
       - dateutils
       - GIT
+      
 -------------------------
 Task 1)
 Using grep or similar utility available in your OS, find lines from random text file which have two or more "-" symbols on one line.
@@ -101,7 +102,7 @@ Bonus setup service in heroku with Let's Encrypt certificate
 
 -------------------------
 
-Task 7
+Task 7)
 You have an issue in Oracle 11g database. One specific server creates queries that locks table for INSERT queries. 
 Create PL/SQL script that kills those each query from thatserver if one specific query is taking longer than 5 seconds.
 
